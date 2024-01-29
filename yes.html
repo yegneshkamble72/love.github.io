@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Yes mood</title>
+	<style>
+		*{
+	padding: 0;
+	margin: 0;
+	outline:0;
+}
+body{
+	height: 90vh;
+	width: 100%;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	height: 91vh;
+	width: 100%;
+	text-align:center;
+	color:#ffffff;
+	background-image:url("https://i.pinimg.com/736x/04/8d/6b/048d6b33019f1886c01f654f56a1cf32.jpg" );
+	background-blend-mode: saturation;
+	background-size: cover;
+	margin-bottom: 0%;
+	z-index:-1;
+	overflow: hidden;
+
+}
+.yes{
+	margin-top: 20%;
+}
+.love,.no{
+	padding-top: 15%;
+		
+}
+ span{
+	color:rgb(255, 0, 157);
+	text-decoration: underline;
+	
+}
+h2{
+	font-size: 80px;
+	
+	/* margin-bottom: 10px; */
+}
+h3{
+	font-size: 60px;
+	text-decoration: underline;
+}
+
+.button-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+  }
+  
+  
+  
+
+.kiss{
+	
+	max-width: 15%;
+	animation: image 3s linear infinite;
+}
+
+img .miss{
+	
+    height: 40%;
+	width: 40%;
+	padding: 20px;
+}
+/* imges */
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 20px;
+	padding: 20px;
+	margin: 0 auto;
+	max-width: 900px;
+	
+  }
+  
+  .photo {
+	overflow: hidden;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	background-color: #fff8f8;
+  }
+  
+  .photo img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	transition: transform 0.3s ease;
+  }
+  
+  .photo img:hover {
+	transform: scale(1.1);
+  }
+.yes .love{
+	height: 45px;
+	width: 35px;
+	/* animation: image 4s linear infinite; */
+}
+.no .love{
+	height: 10%;
+	width: 10%;
+	/* animation: image 4s linear infinite; */
+}
+
+/* Footer styles */
+footer {
+	background-color: #fff8f8;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	padding: 20px 0;
+  }
+  
+  .footer-content {
+	font-size: 14px;
+  }
+  
+  .footer-content p {
+	margin: 0;
+	font-size: 20px;
+  }
+@keyframes image{
+	0%{transform: scale(.3);}
+	50%{transform: scale(1.3);}
+	100%{transform: scale(.3);}
+}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<footer>
+			<div class="footer-content">
+			  <p>&hearts; Yegnesh Kamble &hearts;</p>
+			</div>
+		</footer>
+		<div class="yes">
+			<h2>I L<img class="love"  src="img/kisspng-love-heart-love-heart-romance-clip-art-picture-of-red-heart-5aaeb718420cb8.8640685015213995762706.png" alt="">ve U Too <span>Aachal</span></h2>
+			<h2>SweetHeart<img class="love"  src="img/kisspng-love-heart-love-heart-romance-clip-art-picture-of-red-heart-5aaeb718420cb8.8640685015213995762706.png" alt=""></h2><br>
+			<img src="img/kiss.png" class="kiss">
+            <h3>You are my everything! <img class="love"  src="img/kisspng-love-heart-love-heart-romance-clip-art-picture-of-red-heart-5aaeb718420cb8.8640685015213995762706.png" alt=""></h3><br>
+             <br><br><br><br><br><br><br>
+			<main class="gallery">
+				<div class="photo">
+				  <img src="img/miss.png" alt="Image 1">
+				</div>
+				<div class="photo">
+				  <img src="img/hug1.png" alt="Image 2">
+				</div>
+				<div class="photo">
+					<img src="img/kiss1.png" alt="Image 2">
+				</div>
+			  </main>
+		</div><br><br><br><br><br>
+		<footer>
+			<div class="footer-content">
+			  <p>&copy; 2024 Yegnesh Kamble</p>
+			</div>
+		</footer>
+	</div><br>
+	
+	
+</body>
+</html>
